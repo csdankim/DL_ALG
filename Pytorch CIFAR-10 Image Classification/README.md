@@ -2,8 +2,8 @@
 ## 2. Pytorch CIFAR-10 Image Classification
 &nbsp;
 
-### A. [Code]()
-### B. [Experiment Report]()
+### A. [Code](https://github.com/csdankim/DL_ALG/blob/master/Pytorch%20CIFAR-10%20Image%20Classification/cifar10_pytorch_tfboard.py)
+### B. [Experiment Report](https://github.com/csdankim/DL_ALG/blob/master/Pytorch%20CIFAR-10%20Image%20Classification/Dongkyu_Kim_hw3.pdf)
 &nbsp;
 
 
@@ -112,4 +112,4 @@ In Pytorch trained weights are saved as *.pth file, you can load these files int
 So you can load your pretrained weights into a dictionary 'pretrained_dict', then load your new model's weights into another dictionary 'model_dict' with method net.state_dict(). Then update weights in 'model_dict' only when keys in model_dict are also in pretrained_dict. Once you have updated model_dict, you can assign the values in this dictionary to your new model using net.load_state_dict(model_dict) method.
 
 &nbsp;
-# [Experiment Report]()
+# [Experiment Report](https://github.com/csdankim/DL_ALG/blob/master/Pytorch%20CIFAR-10%20Image%20Classification/Dongkyu_Kim_hw3.pdf)
